@@ -1,0 +1,309 @@
+.titulo1 {
+    position: absolute;
+	top: 10%;
+	left: 50%;
+    transform: translateX(-50%) translateY(-50%) ;
+    font-family: 'Fira Sans', sans-serif;
+    color:white;
+    
+}
+.h3{
+    font-size:26px !important;
+}
+.center9{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) ;
+    font-family: 'Fira Sans', sans-serif;
+    width:100%;
+
+}
+.center4{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) ;
+    font-family: 'Fira Sans', sans-serif;
+    width:100%;
+
+}
+.center5{
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) ;
+    font-family: 'Fira Sans', sans-serif;
+    width:100%;
+    color: white;
+   
+}
+.center6{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) ;
+    font-family: 'Fira Sans', sans-serif;
+    width:100%;
+    color: white;
+
+}
+.center7{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) ;
+    font-family: 'Fira Sans', sans-serif;
+    width:100%;
+    color: white;
+
+}
+.center8{
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) ;
+    font-family: 'Fira Sans', sans-serif;
+    width:100%;
+    color: white;
+
+}
+.center10{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) ;
+    font-family: 'Fira Sans', sans-serif;
+    width:100%;
+    color: white;
+}
+.center11{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) ;
+    font-family: 'Fira Sans', sans-serif;
+    width:100%;
+    color: white;
+
+}
+.p_3{
+    font-family: 'Roboto' sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size:14px !important;
+    color:white;
+    text-align: center;
+    width:70%;
+    margin-left:15%;
+    
+}
+.center8_1{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) ;
+    font-family: 'Fira Sans', sans-serif;
+    width:100%;
+    color: white;
+
+}
+.hr_1{
+    border: 1px solid white;
+    width:84%;
+    left:10%;
+}
+.p_1{
+    font-size:15px !important;
+
+    text-justify: auto;
+    width:60%;
+}
+.p_2{
+    font-family: 'Fira Sans', sans-serif;
+    font-size:26px !important;
+    color:white;
+    text-align: center;
+    width:70%;
+    margin-left:15%;
+    font-weight: 700;
+}
+.imgCenter{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%)
+  }
+.thisTwo,.thisThree{
+    position:relative;
+    background-color: #5A7BE3;
+}
+
+   
+html {
+    scroll-behavior: smooth;
+  }
+
+video {
+	min-width: 100%;
+	min-height: 100%;
+	width:100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%) ;
+	object-fit: fill;
+  }
+  .center1 {
+    position: absolute;
+	top: 35%;
+	left: 50%;
+    transform: translateX(-50%) translateY(-50%) ;
+    font-family: 'Fira Sans', sans-serif;
+  }
+   
+  .center2 {
+    position: absolute;
+	top: 50%;
+	left: 50%;
+    transform: translateX(-50%) translateY(-50%) ;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  .center3{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) ;
+    font-family: 'Fira Sans', sans-serif;
+
+  }
+  
+/* Button to display the form */
+.btnn{
+	padding: 0;
+	border: none;
+	font-size: 13px;
+	color: inherit;
+	
+	/* show a hand cursor on hover; some argue that we
+	should keep the default arrow cursor for buttons */
+	cursor: pointer;
+	
+	
+	
+	border-radius: 10px;
+
+	 /* default for <button>, but useful for <a> */
+	 display: inline-block;
+	 text-align: center;
+	 text-decoration: none;
+   
+	 /* create a small space when buttons wrap on 2 lines */
+	 margin: 20px 0;
+   
+	 /* invisible border (will be colored on hover/focus) */
+	 border: solid 1px transparent;
+	 border-radius: 4px;
+   
+	 /* size comes from text & padding (no width/height) */
+	 padding: 0.5em 1em;
+   
+	 /* make sure colors have enough contrast! */
+	 color: #ffffff;
+	 background-color: #3B62EB;
+  }
+  /* old-school "down" effect on clic + color tweak */
+.btnn:active  {
+	transform: translateY(1px);
+	filter: saturate(150%);
+}
+/* inverse colors on mouse-over */
+.btnn:hover {
+	color: #3B62EB;
+	border-color: currentColor;
+	background-color: white;
+  }
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+    .center1{
+        top:15%;
+    }
+    .center2{
+        top:50%;
+    }
+    .p_central{
+        text-align:justify;
+    }
+    .center2 {
+        position: absolute;
+        top: 55%;
+        left: 52%;
+        transform: translateX(-50%) translateY(-50%) ;
+        font-family: 'Fira Sans', sans-serif;
+      }
+    .thisResponsive{
+        background-color: #3B62EB;
+        height:1540px;
+    }
+    .tituloRes{
+        margin-top:20px;
+        font-family: 'Fira Sans', sans-serif;
+        color: white;
+        text-align:center;
+        width:80%;
+        margin-left:10%;
+	
+    }
+    .centerImg{
+        
+        position:relative;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top:32px;
+
+    }
+    .p_1{
+        margin-top:20px;
+        font-family: 'Fira Sans', sans-serif;
+        color: white;
+        text-align:center;
+        width:80%;
+        margin-left:10%;
+    }
+    .myHr{
+        border: 1px solid white;
+        margin-top:30px;
+    }
+    .h_1{
+        margin-top:20px;
+        font-family: 'Fira Sans', sans-serif;
+        color: white;
+        text-align:center;
+        width:80%;
+        margin-left:10%;
+        font-size:1.50rem;
+        font-weight: 600;
+    }
+
+}
+/** Large */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+	.p_1{
+		font-size:13px !important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .p_1{
+		font-size:13px !important;
+    }
+    .center6{
+
+        top:55%;
+
+    }
+
+}
